@@ -1,16 +1,34 @@
 <template>
    <div>
-       <div class="divider">
+       <div           data-aos="fade-in"
+                      data-aos-offset="200"
+                      data-aos-delay="50"
+                      data-aos-duration="400"
+                      data-aos-easing="ease-in-out"
+                      data-aos-mirror="true"
+                      data-aos-once="false" class="divider">
            <h3>Contact Us</h3>
            <hr>
        </div>
-       <div class="contact">
-           <h2>
+       <div      class="contact">
+           <h2        data-aos="fade-up"
+                      data-aos-offset="200"
+                      data-aos-delay="50"
+                      data-aos-duration="400"
+                      data-aos-easing="ease-in-out"
+                      data-aos-mirror="true"
+                      data-aos-once="false">
                So what do you say, are we the team that
                you’re looking for? <span>Contact us</span> and we
                ensure satisfaction.
            </h2>
-           <div class="contact__details">
+           <div data-aos="fade-in"
+                      data-aos-offset="200"
+                      data-aos-delay="50"
+                      data-aos-duration="400"
+                      data-aos-easing="ease-in-out"
+                      data-aos-mirror="true"
+                      data-aos-once="false" class="contact__details">
                <div class="contact__details--about">
                    <div>
                        <h3>About Us</h3>

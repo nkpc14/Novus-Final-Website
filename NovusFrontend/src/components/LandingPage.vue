@@ -36,6 +36,8 @@
         color: #fff;
         font-size: 1.6rem;
         height: auto;
+        width: 100%;
+        overflow-x: hidden;
     }
 
     .Approach{

@@ -2,10 +2,14 @@
     <div class="mainSection">
         <div>
             <Header></Header>
-            <div class="mainSection__top">
+
+            <div class="mainSection__top ">
                 <div class="mainSection__top--content">
 
-                    <h1>
+                    <h1
+                      data-aos="fade-in"
+                      data-aos-delay="1000"
+                    >
                         <span class="mainSection__top--content-novus">Novus</span>
                         is a digital studio
                         that develop websites and
@@ -15,7 +19,7 @@
 
                 </div>
                 <div class="mainSection__top--arts">
-                    <img class="mainSection__top--arts-semi_cir_empty" src="../../assets/images/semi_cir_empty.png" alt="">
+                    <img  class="mainSection__top--arts-semi_cir_empty" src="../../assets/images/semi_cir_empty.png" alt="">
                     <img class="mainSection__top--arts-semi_cir_fill" src="../../assets/images/semi_cir_fill.png" alt="">
                     <img class="mainSection__top--arts-rectangle" src="../../assets/images/rectangle.png" alt="">
                     <img class="mainSection__top--arts-Ellipse" src="../../assets/images/Ellipse.png" alt="">
@@ -29,7 +33,7 @@
         <div class="mainSection__bottom">
 
             <div class="mainSection__bottom--scroll">
-                <p>
+                <p >
                     NOVUS is a student organisation since 2017 led by aspiring minds. We are pushing its limits
                     with the help of each and every determined mind that makes us, the NOVUS.
                 </p>
@@ -74,7 +78,6 @@
         height: 100vh;
         display: flex;
         flex-direction: column;
-
         &__top{
             display: flex;
             justify-content: space-between;

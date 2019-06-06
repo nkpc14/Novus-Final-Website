@@ -3,8 +3,18 @@
 
         <div class="mainSection--content">
 
-            <h1>
-                <span class="mainSection--content-novus">Novus</span>
+            <h1       data-aos="zoom-out-right"
+                      data-aos-offset="200"
+                      data-aos-delay="50"
+                      data-aos-duration="400"
+                      data-aos-easing="ease-in-out"
+                      data-aos-mirror="true"
+                      data-aos-once="false">
+                <span data-aos="fade-right"
+                      data-aos-offset="200"
+                      data-aos-delay="800"
+                      data-aos-easing="ease-in-out"
+                     class="mainSection--content-novus">Novus</span>
                 is a digital studio
                 that develop websites and
                 Mobile applications.
@@ -12,7 +22,7 @@
             </h1>
 
         </div>
-        <div class="mainSection--arts">
+        <div  class="mainSection--arts">
             <img class="mainSection--arts-semi_cir_empty" src="../../assets/images/semi_cir_empty.png" alt="">
             <img class="mainSection--arts-semi_cir_fill" src="../../assets/images/semi_cir_fill.png" alt="">
             <img class="mainSection--arts-rectangle" src="../../assets/images/rectangle.png" alt="">
@@ -22,28 +32,63 @@
 
 
 
-        <div class="mainSection--scroll">
-            <p>
+        <div  data-aos="fade-up"
+
+                      data-aos-delay="50"
+                      data-aos-duration="400"
+                      data-aos-easing="ease-in-out"
+                      data-aos-mirror="true"
+                      data-aos-once="false"
+              class="mainSection--scroll">
+            <p        data-aos="fade-up"
+                      data-aos-delay="500"
+                      data-aos-duration="400"
+                      data-aos-easing="ease-in-out"
+                      data-aos-mirror="true"
+                      data-aos-once="false">
                 NOVUS is a student organisation since 2017 led by aspiring minds. We are pushing its limits
                 with the help of each and every determined mind that makes us, the NOVUS.
             </p>
-            <div class="mainSection--scroll-in">
-                <p>Scroll to see more</p>
+            <div      data-aos="slide-right"
+                      data-aos-delay="400"
+                      data-aos-duration="400"
+                      data-aos-easing="ease-in-out"
+                 class="mainSection--scroll-in">
+                <p
+                    >Scroll to see more</p>
                 <img src="../../assets/images/Arrow.png" alt="">
             </div>
         </div>
 
-        <div class="mainSection--photo">
-            <p>
+        <div data-aos="fade-up"
+
+                      data-aos-delay="50"
+                      data-aos-duration="400"
+                      data-aos-easing="ease-in-out"
+                      data-aos-mirror="true"
+                      data-aos-once="false" class="mainSection--photo">
+            <p data-aos="fade-up"
+
+                      data-aos-delay="500"
+                      data-aos-duration="400"
+                      data-aos-easing="ease-in-out"
+                      data-aos-mirror="true"
+                      data-aos-once="false">
                 Innovation drives us and we are hunting for it; hunting hunting for people who stand
                 out in crowd, like you.
             </p>
 
-            <a href="">View Photos / videos</a>
+            <router-link to="">View Photos / videos</router-link>
 
         </div>
 
-        <div class="mainSection--video">
+        <div data-aos="fade-up-left"
+
+                      data-aos-delay="50"
+                      data-aos-duration="400"
+                      data-aos-easing="ease-in-out"
+                      data-aos-mirror="true"
+                      data-aos-once="false" class="mainSection--video">
 
             <img src="../../assets/images/video.png" alt="">
         </div>

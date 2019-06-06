@@ -1,42 +1,107 @@
 <template>
    <div>
-       <div class="divider">
+       <div
+
+                      data-aos="fade"
+                      data-aos-offset="200"
+                      data-aos-delay="50"
+                      data-aos-duration="1000"
+                      data-aos-easing="ease-in-out"
+                      data-aos-mirror="true"
+                      data-aos-once="false"
+         class="divider">
            <h3>Projects</h3>
            <hr>
        </div>
        <div class="projects">
-           <div class="projects__top">
+           <div
+
+                      data-aos="flip-up"
+                      data-aos-offset="200"
+                      data-aos-delay="50"
+                      data-aos-duration="400"
+                      data-aos-easing="ease-in-out"
+                      data-aos-mirror="true"
+                      data-aos-once="false"
+             class="projects__top">
                <h2>Look at all the projects that we
                    have <span>accomplished.</span></h2>
            </div>
-           <div class="projects__middle">
+           <div
+             class="projects__middle">
                <hr/>
-               <div class="projects__middle--project">
-                   <div class="project__middle--project-div">
+               <div
+
+                      class="projects__middle--project">
+                   <div
+                      data-aos="flip-left"
+                      data-aos-offset="200"
+                      data-aos-delay="50"
+                      data-aos-duration="400"
+                      data-aos-easing="ease-in-out"
+                      data-aos-mirror="true"
+                      data-aos-once="false"
+                     class="project__middle--project-div">
                        <img src="" alt="">
                    </div>
-                   <h3>Google</h3>
+                   <h3     data-aos="fade-in"
+                      data-aos-delay="50"
+                      data-aos-duration="400"
+                      data-aos-easing="ease-in-out">Google</h3>
                    <p>Project 1</p>
                </div>
                <hr/>
                <div class="projects__middle--project">
-                   <div class="project__middle--project-div">
+                   <div
+
+
+                      data-aos="flip-left"
+                      data-aos-offset="200"
+                      data-aos-delay="50"
+                      data-aos-duration="400"
+                      data-aos-easing="ease-in-out"
+                      data-aos-mirror="true"
+                      data-aos-once="false"
+                     class="project__middle--project-div">
                        <img src="" alt="">
                    </div>
-                   <h3>Zomato</h3>
+                   <h3
+
+                      data-aos="fade-in"
+                      data-aos-delay="50"
+                      data-aos-duration="400"
+                      data-aos-easing="ease-in-out"
+                      >Zomato</h3>
                    <p>Project 2</p>
                </div>
                <hr/>
                <div class="projects__middle--project">
-                   <div class="project__middle--project-div">
+                   <div
+                      data-aos="flip-left"
+                      data-aos-offset="200"
+                      data-aos-delay="50"
+                      data-aos-duration="400"
+                      data-aos-easing="ease-in-out"
+                      data-aos-mirror="true"
+                      data-aos-once="false"
+                     class="project__middle--project-div">
                        <img src="" alt="">
                    </div>
-                   <h3>Amazon</h3>
+                   <h3     data-aos="fade-in"
+                      data-aos-delay="50"
+                      data-aos-duration="400"
+                      data-aos-easing="ease-in-out">Amazon</h3>
                    <p>Project 3</p>
                </div>
                <hr/>
            </div>
-           <div class="projects__bottom">
+           <div    data-aos="slide-right"
+                      data-aos-offset="200"
+                      data-aos-delay="50"
+                      data-aos-duration="400"
+                      data-aos-easing="ease-in-out"
+                      data-aos-mirror="true"
+                      data-aos-once="false"  class="projects__bottom">
                <p>View Corner</p>
                <div>
                    <span>Study</span>

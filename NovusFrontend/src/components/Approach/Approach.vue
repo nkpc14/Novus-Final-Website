@@ -1,15 +1,50 @@
 <template>
     <div>
-        <div class="divider">
+        <div  data-aos="fade-in"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false" class="divider">
             <h3>Approach</h3>
             <hr>
         </div>
         <div class="approach">
 
-            <div class="approach__content">
-                <img src="../../assets/images/Ellipse_oragange.png" alt="">
-                <h1> We are driven by passion and believe in innovation.</h1>
-                <p> We are currently having our studio in Punjab, India. Our experienced team is capable enough
+            <div
+              data-aos="fade-down-right"
+              data-aos-delay="50"
+              data-aos-duration="100"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false"
+
+              class="approach__content">
+                <img
+                   data-aos="fade-down-right"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false"
+                  src="../../assets/images/Ellipse_oragange.png" alt="">
+                <h1
+                  data-aos="fade-down-right"
+                  data-aos-delay="50"
+                  data-aos-duration="100"
+                  data-aos-easing="ease-in-out"
+                  data-aos-mirror="true"
+                  data-aos-once="false"
+                > We are driven by passion and believe in innovation.</h1>
+                <p
+                    data-aos="fade-up"
+                    data-aos-delay="500"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                    data-aos-mirror="false"
+                    data-aos-once="false"
+
+                > We are currently having our studio in Punjab, India. Our experienced team is capable enough
                     to take up clients from all around the globe. So if your from foreign country, you’re
                     most welcome.
                 </p>
@@ -20,7 +55,13 @@
                 <img class="approach__circle-3" src="../../assets/images/Ellipse_empty.png" alt="">
             </div>
 
-            <div class="approach__map">
+            <div data-aos="zoom-in"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                    data-aos-mirror="false"
+                    data-aos-once="false"
+                 class="approach__map">
                 <img  src="../../assets/images/world.png" alt="">
             </div>
         </div>

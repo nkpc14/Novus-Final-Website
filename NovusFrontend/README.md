@@ -1,6 +1,6 @@
 # novusfrontend
 
-> The Final Frontend for the NOVUS webiste on VueJs.
+> A Vue.js project
 
 ## Build Setup
 

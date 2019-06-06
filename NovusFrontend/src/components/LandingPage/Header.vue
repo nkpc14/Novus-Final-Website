@@ -1,15 +1,10 @@
 <template>
     <div class="header">
               <div class="header--logo">
-                  <transition name="bounce">
-                    <router-link to="/"><img src="../../assets/images/novus_logo.png" alt=""></router-link>
-                  </transition>
-
+                    <router-link class="animated bounce lightSpeedIn " to="/"><img src="../../assets/images/novus_logo.png" alt=""></router-link>
               </div>
         <div
-
-
-            class="header--menu">
+            class="header--menu animated fadeInUp">
             <router-link to="">About</router-link>
             <router-link to="">Approach</router-link>
             <router-link to="">Team</router-link>
@@ -17,7 +12,7 @@
             <router-link to="">Projects</router-link>
             <router-link to="">Contact Us</router-link>
             <router-link to="">Sign in</router-link>
-            <router-link id="reg" to="">Register</router-link>
+            <router-link class="animated fadeInDown slow" id="reg" to="">Register</router-link>
         </div>
     </div>
 </template>
@@ -34,7 +29,6 @@
 </script>
 
 <style scoped lang="scss">
-
 
     .header{
         /*background-color: red;*/

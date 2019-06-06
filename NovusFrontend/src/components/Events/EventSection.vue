@@ -1,14 +1,37 @@
 <template>
     <div>
 
-        <div class="divider">
+        <div   data-aos="fade-in"
+              data-aos-offset="200"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false"
+               class="divider">
             <h3>Events</h3>
             <hr>
         </div>
         <div class="events">
-            <div class="events__info">
-                <h3><span>Join us</span> on our live events.</h3>
-                <p class="events__info">
+            <div
+               class="events__info">
+                <h3 data-aos="slide-right"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="800"
+                data-aos-easing="ease-in"
+                data-aos-mirror="true"
+                data-aos-once="false">
+                  <span>Join us</span> on our live events.</h3>
+                <p
+                  data-aos="fade-up"
+                  data-aos-offset="200"
+                  data-aos-delay="50"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease-in-out"
+                  data-aos-mirror="true"
+                  data-aos-once="false"
+                  class="events__info">
                     We regularly keep on organising events inside our university
                     so anyone who is interested could reach us over there.
                     We’ll be really happy to assist you.
@@ -17,7 +40,15 @@
 
             <div class="events__main">
                 <p class="events__main--current-event">Current event</p>
-                <div class="events__main--event">
+                <div
+                      data-aos="fade-up"
+                      data-aos-offset="200"
+                      data-aos-delay="50"
+                      data-aos-duration="1000"
+                      data-aos-easing="ease-in-out"
+                      data-aos-mirror="true"
+                      data-aos-once="false"
+                  class="events__main--event">
                     <div>
                         <h3>Event Title</h3>
                         <h4>Tagline for the event</h4>
@@ -27,7 +58,15 @@
                     </div>
                 </div>
                 <p class="events__main--last">Last events</p>
-                <div class="events__main--lastevents">
+                <div
+                      data-aos="slide-up"
+                      data-aos-offset="100"
+                      data-aos-delay="50"
+                      data-aos-duration="1000"
+                      data-aos-easing="ease-in-out"
+                      data-aos-mirror="true"
+                      data-aos-once="false"
+                  class="events__main--lastevents">
                     <div class="events__main--lastevents--in">
                         <h4>Event Title</h4>
                         <span>Tagline</span>
@@ -41,7 +80,15 @@
                         <span>Tagline</span>
                     </div>
                 </div>
-                <div class="events__main--eventDetails">
+                <div
+                      data-aos="zoom-in"
+                      data-aos-offset="200"
+                      data-aos-delay="500"
+                      data-aos-duration="1000"
+                      data-aos-easing="ease-in-out"
+                      data-aos-mirror="true"
+                      data-aos-once="false"
+                  class="events__main--eventDetails">
                     <h4>About the event</h4>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -53,16 +100,41 @@
                         culpa qui officia deserunt mollit anim id est laborum.
                     </p>
                 </div>
-                <div class="events__main--venue">
+                <div
+                      data-aos="fade-up"
+                      data-aos-offset="200"
+                      data-aos-delay="50"
+                      data-aos-duration="400"
+                      data-aos-easing="ease-in-out"
+                      data-aos-mirror="true"
+                      data-aos-once="false"
+                  class="events__main--venue">
                     <p>Venue</p>
                     <p>Lovely Professional University,
                         Punjab, 144007, IN.</p>
                 </div>
-                <div class="events__main--date">
+                <div
+                      data-aos="fade-up"
+                      data-aos-offset="200"
+                      data-aos-delay="400"
+                      data-aos-duration="600"
+                      data-aos-easing="ease-in-out"
+                      data-aos-mirror="true"
+                      data-aos-once="false"
+                      class="events__main--date">
                     <p>Date</p>
                     <span>Friday, June 14</span>
                 </div>
-                <div class="events__main--seeMore">
+                <div
+
+                      data-aos="fade-up"
+                      data-aos-offset="200"
+                      data-aos-delay="1000"
+                      data-aos-duration="100"
+                      data-aos-easing="ease-in-out"
+                      data-aos-mirror="true"
+                      data-aos-once="false"
+                  class="events__main--seeMore">
                     <a href="">See all events</a>
                 </div>
             </div>
